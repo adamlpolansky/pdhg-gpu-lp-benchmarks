@@ -1,0 +1,68 @@
+{
+  "asset_sha256": {
+    "matched_pdhg_speedups.svg": "16f51a11933d5f63ef4fd9a6adfda3db00d03f4a21caf870e5742e8ded962aeb",
+    "primary_runtime_matrix.svg": "7297e88e010d0eb3badc43274c035ab15061a38b2f13f65bb2fb065b1461e839",
+    "runtime_scaling.svg": "da5fc90527f6cae54223fa783bd9667e38e5a2dab8588edc0ada62e2059b9abd"
+  },
+  "checkpoint_ids": {
+    "cs": "CS-S-XXXL-TOLERANCE-BENCHMARK-1",
+    "cvar": "CVAR-S-XXXL-TOLERANCE-BENCHMARK-1",
+    "external": "EXTERNAL-LP-VALIDATION-PANEL-1",
+    "mcf": [
+      "MCF-S-XXXL-TOLERANCE-BENCHMARK-1",
+      "MCF-M-XXXL-DIAGNOSTIC-CONTINUATION-1"
+    ],
+    "rbe": "RBE-S-XXXL-TOLERANCE-BENCHMARK-1",
+    "rob": "ROB-S-XXXL-TOLERANCE-BENCHMARK-1"
+  },
+  "exclusions": [
+    "raw solver logs",
+    "raw run records",
+    "model files",
+    "large instances",
+    "environment dumps",
+    "private repository metadata",
+    "internal governance and orchestration material"
+  ],
+  "export_date": "2026-08-19",
+  "file_sha256": {
+    "analysis_validation.json": "5f351d23394472b08f7f7187975e6807d3596a2741e9690a4443f6c8032a8321",
+    "cs_results.csv": "b42af53473f09d17d6e712d619cf9ecd42e139ef29597d210daa16af171a4ae4",
+    "cvar_results.csv": "142ef0c46d3ce8256ff8bfb75a59a17f6f033d2f116b1ec29db786154a7acf18",
+    "experiment_status.csv": "332dc8575d6cce2fc13984cf18bb28225babb96e6fabdf1ad74afd04cb613096",
+    "external_attribution.csv": "032d349ac85b2aea9962b44aa7f2748774d6209f1d70deaa3dfe6e6f3183d2c6",
+    "external_diagnostic_summary.json": "8b9e531ef0142e79972018aef487221af766d56a673cc8d22d27c27d78bd2652",
+    "external_primary_results.csv": "5348bdcec328a4812c3128f816a06b388fddd506b1233ec7de9de2a3fcb318ec",
+    "mcf_results.csv": "8112e21f0b856ff2399974e35d77b894bb2b98c9e0f6ea51de52c0d6146d9dd8",
+    "rbe_results.csv": "ff2b2299de8f85df7aa1753b0e4fe8da911a5e9e2d18e9ca9c426508374a3e79",
+    "rob_results.csv": "815cd1ed13d64c0fc2c525c23ec5e6908d46ee18aea5e475fa033a4cbb3d586b"
+  },
+  "schema_version": "public-evidence-v1",
+  "seeds": {
+    "cs": 11,
+    "cvar": 11,
+    "mcf": 11,
+    "rbe": 11,
+    "rob": 11
+  },
+  "self_hash_note": "provenance.json is excluded from its own checksum map to avoid a circular digest.",
+  "solver_hardware_contract": {
+    "cpu": "Intel Core i7-14700KF",
+    "gpu": "NVIDIA GeForce RTX 4070 (12 GB class)",
+    "operating_environment": "Ubuntu 24.04 under WSL",
+    "pdhg_method": 6,
+    "presolve": -1,
+    "solver": "Gurobi Optimizer 13.0.2 build v13.0.2rc1",
+    "threads": 24,
+    "time_limit_seconds": 1200
+  },
+  "source_checkpoint_sha": "7c3365f7e7176fb61a586a65cd806ae82c663712",
+  "statement": "Raw logs, model files, and private machine or license metadata are not included in this mirror.",
+  "transformations": [
+    "Recomputed denominators from committed aggregate tables and checkpoint summaries.",
+    "Removed internal run identities, artifact locations, machine identity, and process metadata.",
+    "Normalized terminal outcomes without changing immutable private raw records.",
+    "Regenerated SVG figures deterministically from the public CSV files.",
+    "The 1e-4 external-panel exclusion is labeled as a post-run analytical revision."
+  ]
+}

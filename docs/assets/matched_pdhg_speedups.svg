@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="570" viewBox="0 0 930 570">
+<title>Matched PDHG speedups</title>
+<desc>Sixteen CPU/GPU pairs at equal requested tolerance profiles.</desc>
+<rect width="100%" height="100%" fill="#0b1020"/>
+<g font-family="Arial, sans-serif" fill="#e7edf7">
+<text x="32" y="38" font-size="24" font-weight="700">Matched PDHG GPU/CPU runtime speedups</text>
+<text x="32" y="62" font-size="13" fill="#aebbd0">16 matched instance/tolerance pairs; ratio = CPU runtime ÷ GPU runtime</text>
+<text x="200" y="108" font-size="11" text-anchor="end">neos-4409277-trave 1e-6</text>
+<rect x="210" y="92" width="23.19" height="22" rx="3" fill="#4fd1a1"/>
+<text x="239.19" y="108" font-size="11">1.05×</text>
+<text x="200" y="135" font-size="11" text-anchor="end">neos-4409277-trave 1e-8</text>
+<rect x="210" y="119" width="26.57" height="22" rx="3" fill="#4fd1a1"/>
+<text x="242.57" y="135" font-size="11">1.21×</text>
+<text x="200" y="162" font-size="11" text-anchor="end">neos-4763324-toguru 1e-6</text>
+<rect x="210" y="146" width="591.30" height="22" rx="3" fill="#4fd1a1"/>
+<text x="807.30" y="162" font-size="11">26.83×</text>
+<text x="200" y="189" font-size="11" text-anchor="end">neos-4763324-toguru 1e-8</text>
+<rect x="210" y="173" width="620.00" height="22" rx="3" fill="#4fd1a1"/>
+<text x="836.00" y="189" font-size="11">28.13×</text>
+<text x="200" y="216" font-size="11" text-anchor="end">physiciansched6-2 1e-6</text>
+<rect x="210" y="200" width="31.72" height="22" rx="3" fill="#4fd1a1"/>
+<text x="247.72" y="216" font-size="11">1.44×</text>
+<text x="200" y="243" font-size="11" text-anchor="end">physiciansched6-2 1e-8</text>
+<rect x="210" y="227" width="22.94" height="22" rx="3" fill="#4fd1a1"/>
+<text x="238.94" y="243" font-size="11">1.04×</text>
+<text x="200" y="270" font-size="11" text-anchor="end">roi2alpha3n4 1e-6</text>
+<rect x="210" y="254" width="594.60" height="22" rx="3" fill="#4fd1a1"/>
+<text x="810.60" y="270" font-size="11">26.98×</text>
+<text x="200" y="297" font-size="11" text-anchor="end">roi2alpha3n4 1e-8</text>
+<rect x="210" y="281" width="618.61" height="22" rx="3" fill="#4fd1a1"/>
+<text x="834.61" y="297" font-size="11">28.07×</text>
+<text x="200" y="324" font-size="11" text-anchor="end">sorrell4 1e-6</text>
+<rect x="210" y="308" width="26.64" height="22" rx="3" fill="#4fd1a1"/>
+<text x="242.64" y="324" font-size="11">1.21×</text>
+<text x="200" y="351" font-size="11" text-anchor="end">sorrell4 1e-8</text>
+<rect x="210" y="335" width="24.09" height="22" rx="3" fill="#4fd1a1"/>
+<text x="240.09" y="351" font-size="11">1.09×</text>
+<text x="200" y="378" font-size="11" text-anchor="end">square31 1e-6</text>
+<rect x="210" y="362" width="20.16" height="22" rx="3" fill="#f09a76"/>
+<text x="236.16" y="378" font-size="11">0.91×</text>
+<text x="200" y="405" font-size="11" text-anchor="end">square31 1e-8</text>
+<rect x="210" y="389" width="16.69" height="22" rx="3" fill="#f09a76"/>
+<text x="232.69" y="405" font-size="11">0.76×</text>
+<text x="200" y="432" font-size="11" text-anchor="end">supportcase12 1e-6</text>
+<rect x="210" y="416" width="251.24" height="22" rx="3" fill="#4fd1a1"/>
+<text x="467.24" y="432" font-size="11">11.40×</text>
+<text x="200" y="459" font-size="11" text-anchor="end">supportcase12 1e-8</text>
+<rect x="210" y="443" width="333.36" height="22" rx="3" fill="#4fd1a1"/>
+<text x="549.36" y="459" font-size="11">15.13×</text>
+<text x="200" y="486" font-size="11" text-anchor="end">tpl-tub-ss16 1e-6</text>
+<rect x="210" y="470" width="146.20" height="22" rx="3" fill="#4fd1a1"/>
+<text x="362.20" y="486" font-size="11">6.63×</text>
+<text x="200" y="513" font-size="11" text-anchor="end">tpl-tub-ss16 1e-8</text>
+<rect x="210" y="497" width="150.85" height="22" rx="3" fill="#4fd1a1"/>
+<text x="366.85" y="513" font-size="11">6.84×</text>
+<text x="32" y="548" font-size="12" fill="#aebbd0">Matched-profile solver-runtime comparison; not time-to-common-quality.</text>
+</g>
+</svg>

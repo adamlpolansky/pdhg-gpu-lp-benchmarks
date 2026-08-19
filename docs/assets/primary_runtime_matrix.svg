@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="515" viewBox="0 0 900 515">
+<title>Certified primary runtime matrix</title>
+<desc>All 48 certified primary runtimes, in seconds.</desc>
+<rect width="100%" height="100%" fill="#0b1020"/>
+<g font-family="Arial, sans-serif" fill="#e7edf7">
+<text x="32" y="38" font-size="24" font-weight="700">Certified primary runtime matrix</text>
+<text x="32" y="62" font-size="13" fill="#aebbd0">48 OPTIMAL slots: 8 instances × 6 methods; seconds, log color scale</text>
+<text x="246" y="96" font-size="12" text-anchor="middle">Dual</text>
+<text x="358" y="96" font-size="12" text-anchor="middle">Barrier</text>
+<text x="470" y="96" font-size="12" text-anchor="middle">CPU 1e-6</text>
+<text x="582" y="96" font-size="12" text-anchor="middle">CPU 1e-8</text>
+<text x="694" y="96" font-size="12" text-anchor="middle">GPU 1e-6</text>
+<text x="806" y="96" font-size="12" text-anchor="middle">GPU 1e-8</text>
+<text x="180" y="137" font-size="12" text-anchor="end">neos-4409277-trave</text>
+<rect x="190" y="110" width="108" height="40" rx="4" fill="rgb(74,153,132)"/>
+<text x="244" y="135" font-size="11" text-anchor="middle">0.67s</text>
+<rect x="302" y="110" width="108" height="40" rx="4" fill="rgb(50,166,132)"/>
+<text x="356" y="135" font-size="11" text-anchor="middle">0.214s</text>
+<rect x="414" y="110" width="108" height="40" rx="4" fill="rgb(39,173,132)"/>
+<text x="468" y="135" font-size="11" text-anchor="middle">0.122s</text>
+<rect x="526" y="110" width="108" height="40" rx="4" fill="rgb(44,170,132)"/>
+<text x="580" y="135" font-size="11" text-anchor="middle">0.157s</text>
+<rect x="638" y="110" width="108" height="40" rx="4" fill="rgb(38,174,132)"/>
+<text x="692" y="135" font-size="11" text-anchor="middle">0.116s</text>
+<rect x="750" y="110" width="108" height="40" rx="4" fill="rgb(40,172,132)"/>
+<text x="804" y="135" font-size="11" text-anchor="middle">0.13s</text>
+<text x="180" y="181" font-size="12" text-anchor="end">neos-4763324-toguru</text>
+<rect x="190" y="154" width="108" height="40" rx="4" fill="rgb(97,139,132)"/>
+<text x="244" y="179" font-size="11" text-anchor="middle">2.04s</text>
+<rect x="302" y="154" width="108" height="40" rx="4" fill="rgb(108,133,132)"/>
+<text x="356" y="179" font-size="11" text-anchor="middle">3.55s</text>
+<rect x="414" y="154" width="108" height="40" rx="4" fill="rgb(206,77,132)"/>
+<text x="468" y="179" font-size="11" text-anchor="middle">389s</text>
+<rect x="526" y="154" width="108" height="40" rx="4" fill="rgb(212,74,132)"/>
+<text x="580" y="179" font-size="11" text-anchor="middle">510s</text>
+<rect x="638" y="154" width="108" height="40" rx="4" fill="rgb(138,116,132)"/>
+<text x="692" y="179" font-size="11" text-anchor="middle">14.5s</text>
+<rect x="750" y="154" width="108" height="40" rx="4" fill="rgb(142,113,132)"/>
+<text x="804" y="179" font-size="11" text-anchor="middle">18.1s</text>
+<text x="180" y="225" font-size="12" text-anchor="end">physiciansched6-2</text>
+<rect x="190" y="198" width="108" height="40" rx="4" fill="rgb(53,165,132)"/>
+<text x="244" y="223" font-size="11" text-anchor="middle">0.246s</text>
+<rect x="302" y="198" width="108" height="40" rx="4" fill="rgb(48,167,132)"/>
+<text x="356" y="223" font-size="11" text-anchor="middle">0.194s</text>
+<rect x="414" y="198" width="108" height="40" rx="4" fill="rgb(58,162,132)"/>
+<text x="468" y="223" font-size="11" text-anchor="middle">0.314s</text>
+<rect x="526" y="198" width="108" height="40" rx="4" fill="rgb(59,161,132)"/>
+<text x="580" y="223" font-size="11" text-anchor="middle">0.322s</text>
+<rect x="638" y="198" width="108" height="40" rx="4" fill="rgb(51,166,132)"/>
+<text x="692" y="223" font-size="11" text-anchor="middle">0.218s</text>
+<rect x="750" y="198" width="108" height="40" rx="4" fill="rgb(58,162,132)"/>
+<text x="804" y="223" font-size="11" text-anchor="middle">0.31s</text>
+<text x="180" y="269" font-size="12" text-anchor="end">roi2alpha3n4</text>
+<rect x="190" y="242" width="108" height="40" rx="4" fill="rgb(59,161,132)"/>
+<text x="244" y="267" font-size="11" text-anchor="middle">0.326s</text>
+<rect x="302" y="242" width="108" height="40" rx="4" fill="rgb(67,157,132)"/>
+<text x="356" y="267" font-size="11" text-anchor="middle">0.482s</text>
+<rect x="414" y="242" width="108" height="40" rx="4" fill="rgb(159,104,132)"/>
+<text x="468" y="267" font-size="11" text-anchor="middle">41.1s</text>
+<rect x="526" y="242" width="108" height="40" rx="4" fill="rgb(165,100,132)"/>
+<text x="580" y="267" font-size="11" text-anchor="middle">53.8s</text>
+<rect x="638" y="242" width="108" height="40" rx="4" fill="rgb(91,143,132)"/>
+<text x="692" y="267" font-size="11" text-anchor="middle">1.52s</text>
+<rect x="750" y="242" width="108" height="40" rx="4" fill="rgb(96,140,132)"/>
+<text x="804" y="267" font-size="11" text-anchor="middle">1.92s</text>
+<text x="180" y="313" font-size="12" text-anchor="end">sorrell4</text>
+<rect x="190" y="286" width="108" height="40" rx="4" fill="rgb(84,147,132)"/>
+<text x="244" y="311" font-size="11" text-anchor="middle">1.11s</text>
+<rect x="302" y="286" width="108" height="40" rx="4" fill="rgb(73,153,132)"/>
+<text x="356" y="311" font-size="11" text-anchor="middle">0.64s</text>
+<rect x="414" y="286" width="108" height="40" rx="4" fill="rgb(76,152,132)"/>
+<text x="468" y="311" font-size="11" text-anchor="middle">0.727s</text>
+<rect x="526" y="286" width="108" height="40" rx="4" fill="rgb(78,150,132)"/>
+<text x="580" y="311" font-size="11" text-anchor="middle">0.8s</text>
+<rect x="638" y="286" width="108" height="40" rx="4" fill="rgb(72,154,132)"/>
+<text x="692" y="311" font-size="11" text-anchor="middle">0.601s</text>
+<rect x="750" y="286" width="108" height="40" rx="4" fill="rgb(76,152,132)"/>
+<text x="804" y="311" font-size="11" text-anchor="middle">0.732s</text>
+<text x="180" y="357" font-size="12" text-anchor="end">square31</text>
+<rect x="190" y="330" width="108" height="40" rx="4" fill="rgb(65,158,132)"/>
+<text x="244" y="355" font-size="11" text-anchor="middle">0.43s</text>
+<rect x="302" y="330" width="108" height="40" rx="4" fill="rgb(62,159,132)"/>
+<text x="356" y="355" font-size="11" text-anchor="middle">0.383s</text>
+<rect x="414" y="330" width="108" height="40" rx="4" fill="rgb(113,130,132)"/>
+<text x="468" y="355" font-size="11" text-anchor="middle">4.35s</text>
+<rect x="526" y="330" width="108" height="40" rx="4" fill="rgb(116,129,132)"/>
+<text x="580" y="355" font-size="11" text-anchor="middle">5.03s</text>
+<rect x="638" y="330" width="108" height="40" rx="4" fill="rgb(115,129,132)"/>
+<text x="692" y="355" font-size="11" text-anchor="middle">4.76s</text>
+<rect x="750" y="330" width="108" height="40" rx="4" fill="rgb(121,125,132)"/>
+<text x="804" y="355" font-size="11" text-anchor="middle">6.65s</text>
+<text x="180" y="401" font-size="12" text-anchor="end">supportcase12</text>
+<rect x="190" y="374" width="108" height="40" rx="4" fill="rgb(84,147,132)"/>
+<text x="244" y="399" font-size="11" text-anchor="middle">1.08s</text>
+<rect x="302" y="374" width="108" height="40" rx="4" fill="rgb(78,150,132)"/>
+<text x="356" y="399" font-size="11" text-anchor="middle">0.834s</text>
+<rect x="414" y="374" width="108" height="40" rx="4" fill="rgb(126,123,132)"/>
+<text x="468" y="399" font-size="11" text-anchor="middle">8.35s</text>
+<rect x="526" y="374" width="108" height="40" rx="4" fill="rgb(133,119,132)"/>
+<text x="580" y="399" font-size="11" text-anchor="middle">11.3s</text>
+<rect x="638" y="374" width="108" height="40" rx="4" fill="rgb(76,152,132)"/>
+<text x="692" y="399" font-size="11" text-anchor="middle">0.733s</text>
+<rect x="750" y="374" width="108" height="40" rx="4" fill="rgb(76,151,132)"/>
+<text x="804" y="399" font-size="11" text-anchor="middle">0.748s</text>
+<text x="180" y="445" font-size="12" text-anchor="end">tpl-tub-ss16</text>
+<rect x="190" y="418" width="108" height="40" rx="4" fill="rgb(166,100,132)"/>
+<text x="244" y="443" font-size="11" text-anchor="middle">56.8s</text>
+<rect x="302" y="418" width="108" height="40" rx="4" fill="rgb(126,123,132)"/>
+<text x="356" y="443" font-size="11" text-anchor="middle">8.25s</text>
+<rect x="414" y="418" width="108" height="40" rx="4" fill="rgb(160,103,132)"/>
+<text x="468" y="443" font-size="11" text-anchor="middle">43.3s</text>
+<rect x="526" y="418" width="108" height="40" rx="4" fill="rgb(175,95,132)"/>
+<text x="580" y="443" font-size="11" text-anchor="middle">87s</text>
+<rect x="638" y="418" width="108" height="40" rx="4" fill="rgb(121,125,132)"/>
+<text x="692" y="443" font-size="11" text-anchor="middle">6.53s</text>
+<rect x="750" y="418" width="108" height="40" rx="4" fill="rgb(135,117,132)"/>
+<text x="804" y="443" font-size="11" text-anchor="middle">12.7s</text>
+<text x="32" y="493" font-size="12" fill="#aebbd0">Descriptive result on the frozen panel; not a universal solver ranking.</text>
+</g>
+</svg>

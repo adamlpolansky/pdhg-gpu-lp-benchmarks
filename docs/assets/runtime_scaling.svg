@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480">
+<title>ROB runtime scaling</title>
+<desc>Median runtimes by frozen ROB size.</desc>
+<rect width="100%" height="100%" fill="#0b1020"/>
+<g font-family="Arial, sans-serif" fill="#e7edf7">
+<text x="32" y="38" font-size="24" font-weight="700">ROB runtime scaling</text>
+<text x="32" y="62" font-size="13" fill="#aebbd0">Median solver runtime among terminal OPTIMAL runs at each frozen size</text>
+<rect x="70" y="366.90" width="72" height="33.10" rx="4" fill="#7aa2f7"/>
+<text x="106" y="422" font-size="12" text-anchor="middle">S</text>
+<text x="106" y="359.90" font-size="11" text-anchor="middle">0.62s</text>
+<rect x="180" y="276.01" width="72" height="123.99" rx="4" fill="#7aa2f7"/>
+<text x="216" y="422" font-size="12" text-anchor="middle">M</text>
+<text x="216" y="269.01" font-size="11" text-anchor="middle">5.12s</text>
+<rect x="290" y="270.14" width="72" height="129.86" rx="4" fill="#7aa2f7"/>
+<text x="326" y="422" font-size="12" text-anchor="middle">L</text>
+<text x="326" y="263.14" font-size="11" text-anchor="middle">5.67s</text>
+<rect x="400" y="241.67" width="72" height="158.33" rx="4" fill="#7aa2f7"/>
+<text x="436" y="422" font-size="12" text-anchor="middle">XL</text>
+<text x="436" y="234.67" font-size="11" text-anchor="middle">9.11s</text>
+<rect x="510" y="201.72" width="72" height="198.28" rx="4" fill="#7aa2f7"/>
+<text x="546" y="422" font-size="12" text-anchor="middle">XXL</text>
+<text x="546" y="194.72" font-size="11" text-anchor="middle">17.12s</text>
+<rect x="620" y="100.00" width="72" height="300.00" rx="4" fill="#7aa2f7"/>
+<text x="656" y="422" font-size="12" text-anchor="middle">XXXL</text>
+<text x="656" y="93.00" font-size="11" text-anchor="middle">79.09s</text>
+<text x="32" y="456" font-size="12" fill="#aebbd0">Descriptive scaling on one fixed hardware/software environment; timeouts are excluded from medians.</text>
+</g>
+</svg>

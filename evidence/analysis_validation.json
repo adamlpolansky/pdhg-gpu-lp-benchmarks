@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "controlled_blocks": 5,
+    "external_primary_slots": 48,
+    "external_terminal_slots": 64,
+    "matched_pairs": 16,
+    "negative_and_censored_evidence_retained": true
+  },
+  "failures": [],
+  "schema_version": "public-analysis-validation-v1",
+  "scope": "sanitized aggregate analysis only; this is not a Git-history or publication-safety verdict",
+  "status": "ready_to_share"
+}

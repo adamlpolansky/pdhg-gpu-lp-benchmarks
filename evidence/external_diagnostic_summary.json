@@ -1,0 +1,60 @@
+{
+  "analysis_revision": {
+    "kind": "transparent_post_run_revision",
+    "preregistered": false,
+    "primary_excludes_tolerance": "1e-4",
+    "raw_evidence_changed": false
+  },
+  "certified_primary": {
+    "gpu_faster_pairs": 14,
+    "matched_pairs": 16,
+    "median_speedup": 4.03663976563391,
+    "slots": 48,
+    "solver_statuses": {
+      "OPTIMAL": 48
+    },
+    "stable_gpu_faster_pairs": 6,
+    "stable_pairs_both_at_least_one_second": 8,
+    "winner_counts": {
+      "barrier": 2,
+      "dual_simplex": 2,
+      "pdhg_gpu_tol_1e6": 4
+    },
+    "winner_denominator": 8
+  },
+  "diagnostic_1e_4": {
+    "gpu_confirmed": 8,
+    "slots": 16,
+    "solver_statuses": {
+      "OPTIMAL": 12,
+      "SUBOPTIMAL": 4
+    },
+    "terminal_categories": {
+      "completed": 12,
+      "execution_failure": 1,
+      "numerical_failure": 3
+    }
+  },
+  "full_audit": {
+    "attempted_solves": 64,
+    "execution_valid": 63,
+    "gpu_confirmed": 24,
+    "gpu_requested": 24,
+    "planned_slots": 64,
+    "resource_skips": 0,
+    "solver_profile_solved": 60,
+    "solver_statuses": {
+      "OPTIMAL": 60,
+      "SUBOPTIMAL": 4
+    },
+    "terminal_categories": {
+      "completed": 60,
+      "execution_failure": 1,
+      "numerical_failure": 3
+    },
+    "terminal_records": 64,
+    "timeouts": 0
+  },
+  "interpretation": "Matched-profile solver-runtime speedup is not time-to-common-quality. SUBOPTIMAL is a solver status, not an execution crash.",
+  "schema_version": "public-external-summary-v1"
+}

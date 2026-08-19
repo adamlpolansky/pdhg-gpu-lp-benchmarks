@@ -1,0 +1,7 @@
+block,planned_slots,attempted_solves,terminal_records,optimal,suboptimal,timeouts,resource_skips,execution_failures,numerical_failures,gpu_confirmed_runs,strict_quality_passes,diagnostic_solves,notes
+cs,48,48,48,48,0,0,0,0,0,18,12,0,All planned solves completed; the strict common gate failed for 36 rows.
+mcf,48,40,48,36,0,4,8,0,0,15,9,0,Eight XXXL slots were classified before attempt after the RAM preflight stop.
+rbe,48,48,48,43,0,5,0,0,0,18,17,0,"Five time limits were terminal outcomes, not crashes."
+cvar,48,48,48,46,0,2,0,0,0,18,26,0,Two CPU-PDHG time limits were retained.
+rob,48,48,48,46,0,2,0,0,0,18,9,1,One separately labeled diagnostic solve is outside the 48-slot matrix.
+external,64,64,64,60,4,0,0,1,3,24,33,0,All four SUBOPTIMAL statuses returned from the solver; normalized terminal categories retain one runner and three numerical classifications.

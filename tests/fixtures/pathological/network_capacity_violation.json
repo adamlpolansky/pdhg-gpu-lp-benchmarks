@@ -1,0 +1,7 @@
+{
+  "description": "Synthetic validator fixture with one unit of excess flow on a capacity row.",
+  "family": "multicommodity-flow",
+  "capacity": 1.0,
+  "flow": 2.0,
+  "expected_violation": 1.0
+}
