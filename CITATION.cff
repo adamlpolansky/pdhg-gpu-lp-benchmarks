@@ -4,7 +4,8 @@ title: "GPU/CPU benchmarks of Gurobi PDHG, barrier, and dual simplex"
 type: software
 authors:
   - family-names: "Polanský"
-    given-names: "Adam"
+    given-names: "Adam Luboš"
 repository-code: "https://github.com/adamlpolansky/pdhg-gpu-lp-benchmarks"
+license: MIT
 version: 0.1.0
 date-released: 2026-08-19

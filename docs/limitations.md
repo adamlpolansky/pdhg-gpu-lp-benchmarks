@@ -10,5 +10,5 @@
 - Basis availability differs by algorithm; no-basis barrier or PDHG output is not automatically non-optimal.
 - The MCF XXXL block was skipped before attempt after a RAM safety gate. Those eight planned slots remain visible.
 - Public CI validates code, aggregate evidence, figures, and publication hygiene. It cannot reproduce the licensed GPU campaign.
-- Adam Polanský designed and implemented the experimental pipeline and analysis around Gurobi; he did not implement Gurobi PDHG or a CUDA solver kernel.
+- Adam Luboš Polanský designed and implemented the experimental pipeline and analysis around Gurobi; he did not implement Gurobi PDHG or a CUDA solver kernel.
 - `ready_to_share` in the evidence validation file means the sanitized analysis is internally consistent. It is not a repository-security conclusion.

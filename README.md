@@ -52,4 +52,6 @@ GPU PDHG was not always fastest, and these results do not prove general solver d
 
 The optional `gurobi` extra pins the tested Python API version for users who already have their own authorized installation and licence; this repository deliberately contains no benchmark runner, solver logs, model instances, or credentials.
 
-No project-wide open-source licence has been granted to this private release candidate yet. Public release remains blocked pending an explicit author/supervisor licence decision. See [third-party notices](THIRD_PARTY_NOTICES.md) and [citation metadata](CITATION.cff).
+## License
+
+Original code and documentation by Adam Luboš Polanský are released under the [MIT License](LICENSE), subject to the exclusions and attribution in [third-party notices](THIRD_PARTY_NOTICES.md). The MIT License does not cover Gurobi software or undistributed MIPLIB model files.

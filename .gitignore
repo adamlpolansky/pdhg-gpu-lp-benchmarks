@@ -6,3 +6,38 @@ __pycache__/
 build/
 dist/
 *.egg-info/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+KEY.txt
+*credential*
+*.key
+*.pem
+*.p12
+*.pfx
+gurobi.lic
+*.lic
+
+# Private benchmark outputs and solver artefacts
+logs/
+results/raw/
+results/artifacts/
+outputs/
+instances/
+*.log
+*.mps
+*.mps.gz
+*.lp
+*.sol
+
+# Binary data, archives, databases, and spreadsheets
+*.npy
+*.npz
+*.zip
+*.xlsx
+*.xls
+*.parquet
+*.sqlite*
+*.db

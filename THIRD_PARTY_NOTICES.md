@@ -2,7 +2,7 @@
 
 ## Gurobi Optimizer
 
-The reported measurements were produced with Gurobi Optimizer, proprietary software from Gurobi Optimization, LLC. Gurobi, its Python API, GPU runtime, and any licence material are not distributed in this repository and are not covered by any future project licence. Users who choose the optional integration extra must obtain and comply with their own Gurobi licence.
+The reported measurements were produced with Gurobi Optimizer, proprietary software from Gurobi Optimization, LLC. Gurobi, its Python API, GPU runtime, and any licence material are not distributed in this repository and are not covered by the project's MIT License. Users who choose the optional integration extra must obtain and comply with their own Gurobi licence.
 
 ## MIPLIB 2017 Collection Set
 

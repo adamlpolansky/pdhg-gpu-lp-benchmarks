@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=75"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,8 +7,10 @@ name = "pdhg-gpu-lp-benchmarks"
 version = "0.1.0"
 description = "Curated, credential-free evidence and demos for GPU/CPU linear-programming benchmarks"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.11"
-authors = [{ name = "Adam Polanský" }]
+authors = [{ name = "Adam Luboš Polanský" }]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.11",

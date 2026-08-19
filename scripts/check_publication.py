@@ -55,7 +55,11 @@ DENIED_SUFFIXES = {
     ".env",
     ".key",
     ".pem",
+    ".lic",
+    ".p12",
+    ".pfx",
 }
+DENIED_NAMES = {"key.txt", "gurobi.lic"}
 IGNORED_PARTS = {".git", ".venv", "__pycache__", ".pytest_cache", ".ruff_cache", "build", "dist"}
 
 
@@ -211,6 +215,8 @@ def scan(root: Path) -> dict[str, int]:
         lowered = relative.name.lower()
         if any(lowered.endswith(suffix) for suffix in DENIED_SUFFIXES):
             errors.append(f"denied suffix: {relative}")
+        if lowered in DENIED_NAMES:
+            errors.append(f"denied filename: {relative}")
         try:
             text = path.read_text(encoding="utf-8")
         except UnicodeDecodeError:
