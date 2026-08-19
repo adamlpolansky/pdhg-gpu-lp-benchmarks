@@ -30,4 +30,4 @@
 
 ## Status and provenance
 
-`experiment_status.csv` is the six-block denominator ledger. `analysis_validation.json` records checks on the aggregate analysis only. `provenance.json` records the private source checkpoint, checkpoint identities, deterministic seeds, curated solver/hardware contract, transformations, exclusions, and SHA-256 values for every other evidence file and each SVG asset. It excludes its own digest to avoid a circular checksum.
+`experiment_status.csv` is the six-block denominator ledger. `analysis_validation.json` records checks on the aggregate analysis only. `provenance.json` records the private source checkpoint, checkpoint identities, deterministic seeds, curated solver/hardware contract, transformations, exclusions, and SHA-256 values for every other evidence file and each SVG asset. Text is hashed after CRLF-to-LF normalization so the digest is stable across Windows and Unix checkouts. The provenance file excludes its own digest to avoid a circular checksum.

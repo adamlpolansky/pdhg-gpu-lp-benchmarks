@@ -71,11 +71,10 @@ CONTROLLED_EXPECTED = {
 
 
 def _sha256(path: Path) -> str:
-    digest = hashlib.sha256()
-    with path.open("rb") as handle:
-        for block in iter(lambda: handle.read(1 << 20), b""):
-            digest.update(block)
-    return digest.hexdigest()
+    data = path.read_bytes()
+    if path.suffix in {".csv", ".json", ".svg"}:
+        data = data.replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest()
 
 
 def _svg_document(width: int, height: int, body: list[str], title: str, description: str) -> str:

@@ -15,6 +15,7 @@
     "rbe": "RBE-S-XXXL-TOLERANCE-BENCHMARK-1",
     "rob": "ROB-S-XXXL-TOLERANCE-BENCHMARK-1"
   },
+  "checksum_policy": "SHA-256 over UTF-8 text after CRLF-to-LF normalization for cross-platform checkout stability.",
   "exclusions": [
     "raw solver logs",
     "raw run records",
